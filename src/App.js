@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
-import logo from './logo.svg';
+import logo from "./logo.svg";
 import ContainerDev from "./components/ContainerDev.js";
 import Title from "./components/Title.js";
 import ImgRotate from "./components/ImgRotate";
@@ -11,9 +11,9 @@ const LinkGithubSaghiaVar = "https://github.com/Saghia";
 function App() {
   return (
     <ContainerDev
-      Title={<Title TextTitle={"Hello World!"}/>}
+      Title={<Title TextTitle={"Hello World!"} />}
       ImgRotate={<ImgRotate img={logo} />}
-      PCode={<PCode CodeText={"Int i = 0"} />}
+      PCode={<PCode CodeText={"src/App.js"} />}
       LinkGithubSaghia={<LinkGithubSaghia TextLink={LinkGithubSaghiaVar} />}
     />
   );
